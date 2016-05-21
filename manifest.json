@@ -1,0 +1,13 @@
+{
+    "name": "ClickClone",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Clone a repository by clicking a button",
+    "content_scripts": [
+        {
+            "matches": ["https://github.com/*"],
+            "js": ["clickclone.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

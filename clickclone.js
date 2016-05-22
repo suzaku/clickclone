@@ -14,7 +14,7 @@
         container.appendChild(btn)
 
         btn.onclick = function () {
-            alert(url);
+            chrome.extension.sendRequest({url: url});
         }
     }
 

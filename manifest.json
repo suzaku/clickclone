@@ -9,5 +9,11 @@
             "js": ["clickclone.js"],
             "run_at": "document_end"
         }
-    ]
+    ],
+    "permissions": [
+        "nativeMessaging"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
 }
